@@ -14,15 +14,15 @@
             employee.Gender = 'm';
             employee.BasicPay = 10000;
             employee.Deduction = 1000;
-            employee.TaxablePay = 2000;
+            employee.TaxablePay = 2000.00;
             employee.Tax = 111;
             employee.NetPay = 1111;
             employee.StartDate = DateTime.Now;////////
             employee.City = "bsp";
             employee.Country = "india";
 
-            repo.AddEmployee(employee);
-
+           // repo.AddEmployee(employee);
+            repo.GetAllEmployee();
 
 
         }
